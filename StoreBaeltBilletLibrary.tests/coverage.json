@@ -1,0 +1,136 @@
+{
+  "C:\\source\\StoreBaeltBilletLibrary\\StoreBaeltBilletLibrary.tests\\bin\\Debug\\netcoreapp2.0\\StoreBaeltBilletLibrary.dll": {
+    "C:\\source\\StoreBaeltBilletLibrary\\StoreBaeltBilletLibrary\\Bil.cs": {
+      "StoreBaeltBilletLibrary.Bil": {
+        "System.Decimal StoreBaeltBilletLibrary.Bil::WeekendRabatMedBroBizz()": {
+          "Lines": {
+            "26": 1,
+            "27": 1,
+            "28": 1
+          },
+          "Branches": []
+        },
+        "System.Decimal StoreBaeltBilletLibrary.Bil::WeekendRabatUdenBroBizz()": {
+          "Lines": {
+            "36": 1,
+            "37": 1,
+            "38": 1
+          },
+          "Branches": []
+        },
+        "System.Decimal StoreBaeltBilletLibrary.Bil::Pris()": {
+          "Lines": {
+            "41": 4,
+            "42": 4,
+            "43": 4
+          },
+          "Branches": []
+        },
+        "System.String StoreBaeltBilletLibrary.Bil::Køretøj()": {
+          "Lines": {
+            "46": 1,
+            "47": 1,
+            "48": 1
+          },
+          "Branches": []
+        },
+        "System.Decimal StoreBaeltBilletLibrary.Bil::BroBizz()": {
+          "Lines": {
+            "51": 1,
+            "52": 1,
+            "53": 1
+          },
+          "Branches": []
+        },
+        "System.Void StoreBaeltBilletLibrary.Bil::.ctor(System.String,System.DateTime)": {
+          "Lines": {
+            "9": 2,
+            "10": 1,
+            "11": 1
+          },
+          "Branches": []
+        },
+        "System.Void StoreBaeltBilletLibrary.Bil::.ctor()": {
+          "Lines": {
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\source\\StoreBaeltBilletLibrary\\StoreBaeltBilletLibrary\\MC.cs": {
+      "StoreBaeltBilletLibrary.MC": {
+        "System.Decimal StoreBaeltBilletLibrary.MC::WeekendRabatMedBroBizz()": {
+          "Lines": {
+            "29": 1,
+            "30": 1,
+            "31": 1
+          },
+          "Branches": []
+        },
+        "System.Decimal StoreBaeltBilletLibrary.MC::WeekendRabatUdenBroBizz()": {
+          "Lines": {
+            "39": 1,
+            "40": 1,
+            "41": 1
+          },
+          "Branches": []
+        },
+        "System.Decimal StoreBaeltBilletLibrary.MC::Pris()": {
+          "Lines": {
+            "43": 4,
+            "44": 4,
+            "45": 4
+          },
+          "Branches": []
+        },
+        "System.String StoreBaeltBilletLibrary.MC::Køretøj()": {
+          "Lines": {
+            "48": 1,
+            "49": 1,
+            "50": 1
+          },
+          "Branches": []
+        },
+        "System.Decimal StoreBaeltBilletLibrary.MC::BroBizz()": {
+          "Lines": {
+            "53": 1,
+            "54": 1,
+            "55": 1
+          },
+          "Branches": []
+        },
+        "System.Void StoreBaeltBilletLibrary.MC::.ctor(System.String,System.DateTime)": {
+          "Lines": {
+            "12": 2,
+            "13": 1,
+            "14": 1
+          },
+          "Branches": []
+        },
+        "System.Void StoreBaeltBilletLibrary.MC::.ctor()": {
+          "Lines": {
+            "16": 5,
+            "17": 5,
+            "18": 5
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\source\\StoreBaeltBilletLibrary\\StoreBaeltBilletLibrary\\Program.cs": {
+      "StoreBaeltBilletLibrary.Program": {
+        "System.Void StoreBaeltBilletLibrary.Program::Main()": {
+          "Lines": {
+            "13": 1,
+            "14": 1,
+            "15": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

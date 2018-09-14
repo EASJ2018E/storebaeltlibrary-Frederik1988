@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BilletLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:BilletLibrary.Bil">
+            <summary>
+            En klasse for køretøjer som er biler. Arver properties fra Køretøjer
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Bil.Pris">
+            <summary>
+            Sætter prisen køretøjet skal betale for at passere broen
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Bil.Køretøj">
+            <summary>
+            Returnerer hvilken slags køretøj der er tale om
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Bil.BroBizz">
+            <summary>
+            Beregner BroBizz rabat for biler
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BilletLibrary.IBroBizz">
+            <summary>
+            Interface til at beregne rabat med BroBizz
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.IBroBizz.BroBizz">
+            <summary>
+            Hvis der skal gives BroBizz rabat
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BilletLibrary.Køretøjer">
+            <summary>
+            En abstract klasse som forskellige slags køretøjer nedarver fra. 
+            </summary>
+        </member>
+        <member name="P:BilletLibrary.Køretøjer.NummerPlade">
+            <summary>
+            Køretøjets nummerplade
+            </summary>
+        </member>
+        <member name="P:BilletLibrary.Køretøjer.Dato">
+            <summary>
+            Hvornår køretøjet krydsede broen
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Køretøjer.#ctor(System.String,System.DateTime)">
+            <summary>
+            Constructor til køretøjer når der skal gives en nummerplade og dato
+            </summary>
+            <param name="nummerPlade"></param>
+            <param name="dato"></param>
+        </member>
+        <member name="M:BilletLibrary.Køretøjer.#ctor">
+            <summary>
+            Default constructor til køretøjer
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Køretøjer.Pris">
+            <summary>
+            Sætter prisen køretøjet skal betale for at passere broen
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Køretøjer.Køretøj">
+            <summary>
+            Returnerer hvilken slags køretøj der er tale om
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BilletLibrary.MC">
+            <summary>
+            En klasse for køretøjer som er motorcykler. Arver properties fra Køretøjer
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.MC.Pris">
+            <summary>
+            Sætter prisen køretøjet skal betale for at passere broen
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MC.Køretøj">
+            <summary>
+            Returnerer hvilken slags køretøj der er tale om
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MC.BroBizz">
+            <summary>
+            Beregner BroBizz rabat for motorcykler
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
