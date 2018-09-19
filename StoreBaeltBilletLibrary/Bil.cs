@@ -18,24 +18,7 @@ namespace StoreBaeltBilletLibrary
 
         #region Methods
 
-        /// <summary>
-        /// Beregner kørsel over Storebælt i weekenden med BroBizz
-        /// </summary>
-        /// <returns></returns>
-        public decimal WeekendRabatMedBroBizz()
-        {
-            return (Pris() * (0.8m)) * (0.95m);
-        }
-
-
-        /// <summary>
-        /// Beregner kørsel over Storebælt i weekenden uden BroBizz
-        /// </summary>
-        /// <returns></returns>
-        public decimal WeekendRabatUdenBroBizz()
-        {
-            return (Pris() * (0.8m));
-        }
+        
 
         public override decimal Pris()
         {
@@ -46,10 +29,21 @@ namespace StoreBaeltBilletLibrary
         {
             return "Bil";
         }
-
+        /// <summary>
+        /// Beregner prisen for kørsel over Storebælt med brobizz og giver rabat hvis det er lørdag eller søndag
+        /// </summary>
+        /// <returns></returns>
         public decimal BroBizz()
         {
-            return Pris() * (0.95m);
+            if (Dato.DayOfWeek == DayOfWeek.Saturday || Dato.DayOfWeek == DayOfWeek.Sunday)
+            {
+                return (Pris() * (0.8m)) * (0.95m);
+            }
+            else
+            {
+                return Pris() * (0.95m);
+            }
+            
         }
 
         #endregion

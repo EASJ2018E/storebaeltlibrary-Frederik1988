@@ -6,32 +6,7 @@ namespace StoreBaeltBilletLibrary.tests
     [TestClass]
     public class BilTest
     {
-        [TestMethod]
-        public void WeekendRabatMedBroBizz()
-        {
-            //Arrange
-            var bil = new Bil();
-
-            //Act
-            decimal prisMedRabat = bil.WeekendRabatMedBroBizz();
-
-            //Assert
-            Assert.AreEqual(182.4m,prisMedRabat);
-        }
-
-        [TestMethod]
-
-        public void WeekendRabatUdenBrobizz()
-        {
-            //Arrange
-            var bil = new Bil();
-
-            //Act
-            decimal prisMedRabat = bil.WeekendRabatUdenBroBizz();
-
-            //Assert
-            Assert.AreEqual(192m, prisMedRabat);
-        }
+    
         [TestMethod]
         public void Pris()
         {
@@ -84,16 +59,30 @@ namespace StoreBaeltBilletLibrary.tests
 
         [TestMethod]
 
-        public void BroBizzRabat()
+        public void BroBizzRabatWeekend()
         {
             //Arrange
-            var bil = new Bil();
+            var bil = new Bil("cb12345", new DateTime(2018,9,16));
 
             //Act
             decimal prisMedRabat = bil.BroBizz();
 
             //Assert
-            Assert.AreEqual(228m, prisMedRabat);
+            Assert.AreEqual(182.4m, prisMedRabat);
+        }
+
+        [TestMethod]
+
+        public void BroBizzUdenRabatWeekend()
+        {
+            //Arrange
+            var bil = new Bil("cb12345", new DateTime(2018, 9, 18));
+
+            //Act
+            decimal prisUdenRabat = bil.BroBizz();
+
+            //Assert
+            Assert.AreEqual(228m, prisUdenRabat);
         }
 
     }

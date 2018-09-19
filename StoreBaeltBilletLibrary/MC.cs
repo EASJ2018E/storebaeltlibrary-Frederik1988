@@ -25,20 +25,7 @@ namespace StoreBaeltBilletLibrary
         /// Beregner kørsel over Storebælt i weekenden med BroBizz
         /// </summary>
         /// <returns></returns>
-        public decimal WeekendRabatMedBroBizz()
-        {
-            return (Pris() * (0.8m)) * (0.95m);
-        }
-
-
-        /// <summary>
-        /// Beregner kørsel over Storebælt i weekenden uden BroBizz
-        /// </summary>
-        /// <returns></returns>
-        public decimal WeekendRabatUdenBroBizz()
-        {
-            return (Pris() * (0.8m));
-        }
+       
         public override decimal Pris()
         {
             return 125;

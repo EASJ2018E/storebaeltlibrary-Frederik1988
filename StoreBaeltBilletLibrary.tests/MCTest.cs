@@ -9,32 +9,7 @@ namespace StoreBaeltBilletLibrary.tests
     [TestClass]
     public class MCTest
     {
-        [TestMethod]
-        public void WeekendRabatMedBroBizz()
-        {
-            //Arrange
-            var mc = new MC();
-
-            //Act
-            decimal prisMedRabat = mc.WeekendRabatMedBroBizz();
-
-            //Assert
-            Assert.AreEqual(95m, prisMedRabat);
-        }
-
-        [TestMethod]
-
-        public void WeekendRabatUdenBrobizz()
-        {
-            //Arrange
-            var mc = new MC();
-
-            //Act
-            decimal prisMedRabat = mc.WeekendRabatUdenBroBizz();
-
-            //Assert
-            Assert.AreEqual(100m, prisMedRabat);
-        }
+       
         [TestMethod]
         public void Pris()
         {
